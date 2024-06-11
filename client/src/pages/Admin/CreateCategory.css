@@ -1,0 +1,88 @@
+.table {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  table th, table td {
+    padding: 8px;
+    text-align: left;
+    border: 3px solid #8a8888;
+    color: black; 
+  }
+  
+  table th {
+    background-color: #f2f2f2; /* Light background */
+  }
+  
+  table tbody tr:hover {
+    background-color: #f9f9f9; /* Light hover effect */
+  }
+  
+  .CategoryEdit, .CategoryDel {
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .CategoryEdit {
+    background-color: #007bff; /* Blue edit button */
+    color: #fff;
+  }
+  
+  .CategoryDel {
+    background-color: #dc3545; /* Red delete button */
+    color: #fff;
+  }
+  
+  .CategoryEdit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  .CategoryDel:hover{
+    background-color: #e76262;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  
+
+.Catrow {
+  display: flex;
+}
+
+
+.Catleft {
+  flex: 1;
+  max-width: 200px;
+  box-shadow: 5px 0px 7px -3px rgba(20, 20, 20, 0.9); /* Add border to separate left and right sections */
+  
+  border: none !important;
+}
+
+.Catright {
+  flex: 3;
+  
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center; 
+  align-items: center; /* Center content vertically */
+  
+  padding: 20px;
+}
+
+
+.category-container {
+  background: rgb(245, 245, 246);
+  padding: 80px 0px  !important; 
+  height: 100% !important;
+  
+  
+}

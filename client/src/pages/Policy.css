@@ -1,0 +1,22 @@
+/* Policy.css */
+
+.policy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .policy-heading {
+    font-size: 2rem;
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .policy-content {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  

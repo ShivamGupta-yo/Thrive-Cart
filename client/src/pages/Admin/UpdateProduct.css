@@ -1,0 +1,149 @@
+.update-container {
+    width: 400px !important;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9) !important; /* Shadow */
+    width: 300px;
+    background: black;
+    align-items: center !important;
+    margin-top: 0px;
+    height: 550px;
+    margin-top: 0px;
+  }
+  
+  .update-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .update-container form {
+    display: flex;
+    flex-direction: column;
+  
+   
+  }
+  .update-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: white !important;
+  }
+  
+  .update-container input[type="text"],
+  .update-container textarea,
+  .update-container input[type="number"],
+  .update-container select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    width: 350px;
+    height: 50px;
+    line-height: 20px;
+  }
+  
+  .update-container input[type="file"] {
+    display: none;
+  }
+  .update-container select:focus{
+   box-shadow: none !important;
+  }
+  
+  .update-container button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .update-container button:hover {
+    background-color: rgb(13, 181, 181);
+    color: black;
+    font-weight: 500;
+  }
+  
+  .update-container .upload-photo {
+    margin-bottom: 20px;
+  }
+  
+  .update-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .upload-photo{
+    border: 2px  dashed white;
+    padding: 5px;
+    width: 350px;
+    text-align: center;
+    
+    margin-top: 30px !important;
+  }
+  .updbtnset{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -5px !important;
+    
+ 
+  }
+  .updbtnset button{
+    background: #0a4da4;
+  }
+  .proddel{
+    background: red !important;
+  }
+  .proddel:hover{
+    background: rgb(237, 127, 127) !important;
+
+ }
+ .updbtnset button:hover{
+
+ background: rgb(112, 112, 235);
+ }
+ 
+
+.updprodrow {
+  display: flex;
+}
+
+
+.updprodleft {
+  flex: 1;
+  max-width: 200px;
+  box-shadow: 5px 0px 7px -3px rgba(20, 20, 20, 0.9);/* Add border to separate left and right sections */
+  
+  border: none !important;
+}
+
+.updprodright {
+  flex: 3;
+  
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center; 
+  align-items: center; /* Center content vertically */
+  
+  padding: 5px;
+}
+
+
+.updprod-container {
+  background: rgb(245, 245, 246);
+  padding-top: 80px !important; 
+  height: 100% !important;
+  
+  
+}
+
+ 
+ 
+ 

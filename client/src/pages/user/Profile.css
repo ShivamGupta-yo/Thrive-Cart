@@ -1,0 +1,115 @@
+/* .Drow{
+    display: flex;
+     width: 100%;
+     height: 100%; 
+}
+
+.Dleft{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    margin-top: 2rem;
+    height: 100%;
+}
+
+.Dright{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    height: 100%;
+    flex-Direction: column;
+} */
+
+/* Dashboard.css */
+
+.row {
+    display: flex;
+  }
+  
+  .Dleft {
+    flex: 1;
+    max-width: 200px;
+     /* Add border to separate left and right sections */
+    height: 610px;
+  }
+  
+  .Dright {
+    flex: 3;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 5px;
+  }
+  
+  /* Optional: Styles for UserMenu component */
+  /* Adjust styles according to your UserMenu component */
+  .dashboard-container {
+   height: 100%;
+   margin-bottom: 95px;
+    padding-top: 70px; /* Adjust this value to match the height of your navbar */
+    
+  }
+
+
+  /* Profile.css */
+
+.profileform {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0px 0px 7px 7px rgba(60, 60, 60, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+  background: black;
+}
+
+.profileform label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white !important;
+}
+
+.profileform input {
+  padding: 10px;
+  margin-bottom: 15px;
+  
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none; /* Remove outline */
+  width: 400px;
+}
+
+.profileform input:focus {
+  outline: none; /* Change border color on focus */
+}
+
+.profileform button {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: #0a4da4; /* Change button background color on hover */
+}
+
+.profileform button:hover {
+  font-weight: 500;
+  background-color: rgb(157, 157, 239);
+  font-size: 16px;
+  color: white;
+
+}
+.disabled{
+  background: rgb(238, 83, 83);
+  color: white;
+  cursor: not-allowed;
+}
+
+  

@@ -1,0 +1,31 @@
+/* UserMenu.css */
+
+.admin-menu {
+    /* Background color for the left side */
+    padding: 10px;
+    height: 600px;
+  }
+  
+  .Admenu-link {
+    text-decoration: none;
+    color: #333; /* Default link color */
+    font-size: 18px; /* Increase font size */
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  
+  }
+  
+  .Admenu-link:hover {
+    background-color: black; /* Background color on hover */
+    color: white;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .active-link {
+    background-color: #007bff; /* Background color for active link */
+    color: #fff; /* Text color for active link */
+  }
+  

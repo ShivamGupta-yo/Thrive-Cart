@@ -1,0 +1,127 @@
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-top: 33px;
+  background-image: url('../../public/imgbgimg.png');
+  /* background-size: cover; */
+  /* background-repeat: repeat-x;
+  background-repeat: repeat-y; */
+  padding-top: 80px !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  min-height: calc(100vh - 130px); /* Adjusted to fill the remaining viewport height */
+}
+  
+  .products1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+  
+  .prod {
+    width: calc(25% - 20px); /* Adjusted width to fit 4 items in a row */
+    padding: 20px;
+    border: 1px solid transparent; /* Transparent border */
+    box-shadow: 0 0 5px 5px rgba(243, 238, 238, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to top, #e3eaed 0%, #ecf2f4 100%);
+    border-radius: 10px;
+  }
+  
+  .prod img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 6px;
+   
+  }
+  
+  .prod h4,
+  .prod p,
+  .prod h4 {
+    margin: 0;
+  }
+  
+  .cart-summary {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid transparent; /* Transparent border */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px !important;
+    
+  }
+  .cart-sum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .span-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .address {
+    margin-bottom: 20px;
+  }
+  
+  .address button {
+    background-color: rgb(13, 181, 181);
+    color: black !important;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  
+  .address button:hover {
+    background: rgba(0, 5, 12, 0.789);
+    color: white !important;
+    font-weight: 500;
+  }
+  
+  .cartBtn {
+    background-color: rgb(238, 23, 48);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cartBtn:hover {
+    scale: 0.9;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .cart-line{
+    border: none;
+  height: 5px;
+  width: 100%;
+  background-color: #0e0d0d; /* Adjust the color as needed */
+  margin: 20px 0; /* Adjust the margin as needed */
+  }

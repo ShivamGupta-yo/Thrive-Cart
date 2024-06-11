@@ -1,0 +1,130 @@
+.loggo{
+    margin-top: 20px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+     background: linear-gradient(to top, #ff6200, #ff2f00); /* Bluish to whitish gradient */
+    z-index: 1000;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4); /* Add shadow for depth */
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px; /* Adjust height as needed */
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav .left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.nav .left .cart-icon {
+    text-decoration: none;
+    color: #333; /* Cart icon color */
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.nav .left .cart-icon:hover {
+    color: white;
+}
+
+.nav .right {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.nav .right li {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.nav a {
+   
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-size: 20px; /* Font size */
+   
+  }
+  
+  .nav a:hover {
+    color: #f4f3f3;
+
+     }
+  
+     .dropdown{
+        position: absolute;
+        top:3rem;
+        right : 4.9rem;
+        width: 150px;
+        padding: 10px;
+        border-radius: 15px;
+        background: linear-gradient(to top, #ff6200, #ff2f00);
+        border: 1px solid gray;
+      }
+      .Categorydropdown{
+        position: absolute;
+        top:3.8rem;
+        right : 14rem;
+        width: 120px;
+        padding: 5px;
+        border-radius: 15px;
+        background-color: white;
+        border: 1px solid gray;
+      }
+      li:hover{
+      cursor: pointer;
+      }
+      .dash{
+        padding-right: 48px;
+      }
+  /* .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown ul li {
+    padding: 10px 20px;
+  }
+  
+  .dropdown ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropdown ul li a:hover {
+    color: #555;
+  } */
+  
+  /* Adjustments for the badge */
+  .ant-badge-count {
+    background-color: #000000; /* Badge background color */
+    color: #fff; /* Badge text color */
+  }
+  

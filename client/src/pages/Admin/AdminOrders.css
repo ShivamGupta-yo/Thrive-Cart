@@ -1,0 +1,91 @@
+.Oleft{
+    flex: 1;
+    max-width: 200px;
+    box-shadow: 5px 0px 7px -3px rgba(20, 20, 20, 0.9); /* Add border to separate left and right sections */
+    background: rgb(245, 245, 246);
+    border: none !important;
+   
+}
+.order-container{
+  background: rgb(245, 245, 246);
+    padding-top: 70px !important; 
+    height: 100%;
+    margin-bottom: 95px;
+    
+}
+.Orow{
+  display: flex;
+}
+table {
+    width: 100%;
+  background: white;
+  
+}
+
+table th,
+table td {
+    border-right: 2px solid  black;
+      text-align: center;
+    padding: 8px;
+    
+
+  
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  table th {
+   background: black;
+    font-weight: 800;
+    color: white;
+  }
+  table tbody tr{
+    transition: 0.3s ease-in-out all;
+  }
+  
+ 
+  
+
+  .ordersDiv {
+      display: flex;
+      margin-left: 200px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: none;
+
+    
+  }
+  
+  .ordersDiv > div {
+    flex: 0 0 calc(25% - 20px);
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .ordersDiv img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .ordersDiv h5,
+  .ordersDiv p {
+    margin: 0;
+  }
+
+  .Oright{
+    background: rgb(245, 245, 246);
+    flex: 3 !important;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    
+    padding: 5px;
+    
+  }

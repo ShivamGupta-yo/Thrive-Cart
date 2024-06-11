@@ -1,0 +1,37 @@
+
+
+.Arow {
+    display: flex;
+  }
+  
+  
+  .Aleft {
+    flex: 1;
+    max-width: 200px;
+    box-shadow: 5px 0px 7px -3px rgba(20, 20, 20, 0.9); /* Add border to separate left and right sections */
+    
+    border: none !important;
+  }
+  
+  
+  .Aright {
+    flex: 3;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center; 
+    align-items: center; /* Center content vertically */
+    
+    padding: 5px;
+  }
+  
+  
+  .admin-container {
+    background: rgb(245, 245, 246);
+    padding-top: 80px !important; 
+    height: 100% !important;
+    
+    
+  }
+  
