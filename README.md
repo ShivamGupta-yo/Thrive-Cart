@@ -24,7 +24,7 @@ Thrive Cart is a comprehensive e-commerce platform built using the MERN (MongoDB
 
 1. **Clone the repository:**
    ```sh
-        git clone https://github.com/ShivamGupta-yo/Thrive-Cart.git
+   git clone https://github.com/ShivamGupta-yo/Thrive-Cart.git
    cd Thrive-Cart
 2. **Install server dependencies:**
    ```sh
